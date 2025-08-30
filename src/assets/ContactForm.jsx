@@ -39,7 +39,7 @@ function ContactForm() {
 
       <div className="flex flex-col md:flex-row items-start gap-10">
         {/* ---- Contact Form ---- */}
-        <div className="w-full md:w-[650px] bg-white shadow-xl rounded-2xl p-8">
+        <div className="w-full md:w-[650px] bg-grey  rounded-2xl p-12">
           <form onSubmit={handleSubmit} className="space-y-5">
             {/* Name */}
             <div>
@@ -124,7 +124,7 @@ function ContactForm() {
         </div>
 
         {/* ---- Contact Info + Map ---- */}
-        <div className="w-full md:w-[500px] bg-white shadow-xl rounded-2xl p-8 mt-6 md:mt-16">
+        <div className="w-full md:w-[500px] bg-white shadow-xl  p-8 mt-6 md:mt-16">
           <h3 className="text-xl font-semibold text-gray-800 mb-3">
             Training and Placement Cell
           </h3>
@@ -137,7 +137,7 @@ function ContactForm() {
 
           <iframe
             title="RGPV Location"
-            className="w-full h-60 rounded-lg border"
+            className="w-full h-60 "
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3680.369444133448!2d77.434269!3d23.181467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c41f8654dfffb%3A0x6a2b34a9d2e9a9f9!2sRGPV%20Bhopal!5e0!3m2!1sen!2sin!4v1694945712845!5m2!1sen!2sin"
             allowFullScreen=""
             loading="lazy"
