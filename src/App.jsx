@@ -1,15 +1,14 @@
-import { useState } from 'react'
-
-import './App.css'
-import ContactForm from "./assets/ContactForm";
+import Footer from "./assets/footer";
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
-      <ContactForm />
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow">
+        {/* Your page content here */}
+      </main>
+      <Footer />
     </div>
   );
 }
 
 export default App;
-
